@@ -1,0 +1,105 @@
+#resizer {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:99;
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+}
+#resizer ul {
+  font-size: 17px;
+  display: inline-block;
+  -webkit-filter: drop-shadow(0 1px 5px rgba(0,0,0,.25));
+  -moz-filter: drop-shadow(0 1px 5px rgba(0,0,0,.25));
+  -ms-filter: drop-shadow(0 1px 5px rgba(0,0,0,.25));
+  -o-filter: drop-shadow(0 1px 5px rgba(0,0,0,.25));
+  filter: drop-shadow(0 1px 5px rgba(0,0,0,.25));
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  margin:-0.2em auto 0;
+}
+
+.tableFixHead {
+    margin-top: 100px;
+    width: 500px;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+    .tableFixHead tbody {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 500px;
+  }
+  .tableFixHead thead tr {
+    display: block;
+  }
+  .tableFixHead th,
+  .tableFixHead  td {
+    padding: 5px 10px;
+    width: 200px;
+  }
+  .quicksand1{
+    font-size: 450%;
+    font-weight: bolder;
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1{
+    font-size: 300%;
+    color:#555555;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  tr{
+    font-weight: bold;
+    font-size: 130%;
+  }
+  #death{
+    background-color:red;
+    color: white;
+    text-align:right
+  }
+  #case{
+    background-color: #FFEEAA;
+    text-align:right
+  }
+  #recovered{
+    background-color:#C8E6C9;
+    text-align:right;
+    color: black
+  }
+  th, td {
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    color: #363945;
+  }
+  .text-primary{
+    text-align:right
+  }
+  .text-danger{
+    text-align:right
+  }
+  .text-success{
+    text-align:right
+  }
+  th{
+    background-color: 'white';
+    color: #666666
+  }
+  #globdo{
+    color:#8ACA2B;
+  }
+  #recov-ma{
+    color:#8ACA2B;
+  }
+  #death-ma{
+    color: #FF9900;
+  }
+  #globro{
+    color: #FF9900ed;
+  }

@@ -1,0 +1,19 @@
+#btn1 {
+    background-color: #ef233c;
+    border: none;
+    padding: 0.6rem 1.8rem;
+    border-radius: 3rem;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    border: 0.1rem solid transparent;
+    background-color: #ffe6e8;
+    color: #ef233c;
+}
+#btn1:hover {
+    background-color: white;
+    border-color: #FF9900;
+    color: #84c449;
+  }
